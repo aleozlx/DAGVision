@@ -13,5 +13,5 @@ window2::window2(QWidget *parent) : QWidget(parent)
     setLayout(mainLayout);
     setWindowTitle(tr("Rect Test"));
 
-    renderArea->setShape(RenderArea::Rect);
+    renderArea->setShape(RenderArea::RoundedRect);
 }
